@@ -42,7 +42,7 @@ GitHub CLI is an open source tool for using GitHub from your computer's command 
     <summary>Solution</summary>
     
   ```shell
-  $ vim .gitignore  # Add **.vs/** to the first line
+  $ vim .gitignore  # Add .vs/ to the first line
   $ git rm -r --cached .vs/
   $ git commit -m "Ignoring Files" 
   $ git push
