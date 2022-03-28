@@ -10,7 +10,7 @@ GitHub CLI is an open source tool for using GitHub from your computer's command 
 - Publish the local repo to your remote repository
 
 **Create a new empty GitHub Remote Repository**
-  ![Create-repository](../images/crete-new-repository.PNG)
+  ![Create-repository](../images/create-new-repository.PNG)
   ![Add-repository-name](../images/add-repository-name.PNG)
   ![Created-repository](../images/repo-page.PNG)
   
