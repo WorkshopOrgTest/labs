@@ -10,9 +10,9 @@ GitHub CLI is an open source tool for using GitHub from your computer's command 
 - Publish the local repo to your remote repository
 
 **Create a new empty GitHub Remote Repository**
-  ![Create-repository](../images/crete-new-repository.png)
-  ![Add-repository-name](../images/add-repository-name.png)
-  ![Created-repository](../images/repo-page.png)
+  ![Create-repository](../images/crete-new-repository.PNG)
+  ![Add-repository-name](../images/add-repository-name.PNG)
+  ![Created-repository](../images/repo-page.PNG)
   
 <details>
     <summary>Solution</summary>
@@ -24,7 +24,7 @@ GitHub CLI is an open source tool for using GitHub from your computer's command 
   $ git push -u origin main  
   ```
 
-![Published-repo](../images/pushed-repo.png)
+![Published-repo](../images/pushed-repo.PNG)
   
 > NOTE: In case you had already initialized your repo over on GitHub, you can force the code into the repo by adding `-f`. **This will overwrite your repository and its contents!**
 > 
