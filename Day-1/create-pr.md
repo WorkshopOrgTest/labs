@@ -1,0 +1,45 @@
+# 1.3 Create a PR and start Code Review 
+
+## Task 1 - Create a PR and assign a Reviewer [10 minutes]
+
+- Create a PR from the New Branch to **main**
+- Add your peer/colleague as a reviewer
+
+![image](https://user-images.githubusercontent.com/67369513/160525944-d1fdb6c2-a8a1-4ec5-8310-3c8ae00012e2.png)
+
+# Task 2 - Enforce CODEOWNERS review [15 minutes]
+
+If you want to enforce certain teams can only approve parts of the codebase, like a web development team for all the web application code and a docs team for the documentation, you can use the code owners file. We can enforce the code owners need to be part of the review process by adding this to the Branch Protection Rule.
+There is already a CODEOWNERS file in the repo that you migrated. It has the following contents:
+
+```
+# Example, any change in this repo 
+# will require approval from @username
+# * @username
+
+# Any change inside the `/Pages` directory
+# will require approval from anyone in the organization fluentbytes and the team docsteam
+# /Pages @username
+# Create your own rules below this line without the # sign
+```
+Now change the file so it defines the folder `/Pages` has a user as the owner. 
+
+After setting up the file, commit it to the main branch.
+Next go to the branch protection rules and for the main branch select the option `Require review from Code Owners`
+
+Save the branch protection rule and make a change to e.g. the startup.cs file and see if you can commit the changes to the main branch. Ask one of the other attendees to review the pull request you created and see if it then is allowed to approve and merge the pull request. 
+
+
+## Task 3 - Review the change [15 minutes]
+
+- Click the Pull Request tab. 
+- Use the Author drop down to locate your partner's pull request.
+- Click the Files Changed tab.
+- Hover over a single line in the file to see the blue +. Click the + to add a line comment.
+- Comment on the line and click Start a review.
+- Add additional line comments to the pull request.
+- Click Review changes in the top right corner.
+- Choose whether to Approve or Request changes
+- Enter a general comment for the review.
+- Click Submit review
+- Click the Conversation tab to check out your completed review.
